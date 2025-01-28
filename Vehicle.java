@@ -1,4 +1,8 @@
 public class Vehicle {
+    /**
+     * Nadir Kutluozen - week 1 - lab
+     * Parent class (blue print)!
+     */
     private int numberOfWheels;
     private String color;
     private float engineSize;
@@ -20,6 +24,13 @@ public class Vehicle {
         return numberOfWheels;
     }
 
+    /**
+     * Sets the NumberOfWheels
+     * @param numWheels number of wheels!
+     */
+    public void setNumberOfWheels(int numWheels){
+        this.numberOfWheels = numWheels;
+    }
     /***
      * Getter for color
      * @return color
@@ -27,6 +38,15 @@ public class Vehicle {
     public String getColor(){
         return color;
     }
+
+    /**
+     * Sets the color!
+     * @param color -  color of the vehicle
+     */
+    public void setColor(String color){
+        this.color = color;
+    }
+
 
     /***
      * Getter for engineSize
@@ -36,12 +56,28 @@ public class Vehicle {
         return engineSize;
     }
 
+    /**
+     * Sets the engine size
+     * @param engineSize - engine size in float
+     */
+    public void setEngineSize(float engineSize){
+        this.engineSize = engineSize;
+    }
+
     /***
      * Getter for fuelType
      * @return fuelType
      */
     public String getFuelType(){
         return fuelType;
+    }
+
+    /**
+     * Sets the fuel type
+     * @param fuelType type of fuel!
+     */
+    public void setFuelType(String fuelType){
+        this.fuelType = fuelType;
     }
 
     /***
